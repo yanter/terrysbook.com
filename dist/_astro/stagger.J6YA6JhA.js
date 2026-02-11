@@ -1,0 +1,1 @@
+import{e as g}from"./index.nIU3vIm4.js";function f(t,r){if("first"===t)return 0;{const n=r-1;return"last"===t?n:n/2}}function d(t=.1,{startDelay:r=0,from:n=0,ease:e}={}){return(s,o)=>{const a="number"==typeof n?n:f(n,o),i=Math.abs(a-s);let u=t*i;if(e){const r=o*t;u=g(e)(u/r)*r}return r+u}}export{d as s};
