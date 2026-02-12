@@ -1,0 +1,1 @@
+{"version":1,"include":["/_server-islands/*","/_image","/api/*","/keystatic/*"],"exclude":["/","/_astro/*","/.DS_Store","/ExampleResume.pdf","/robots.txt","/favicons/*","/images/*","/admin","/fr/*","/rss.xml","/404","/blog/*","/categories/*","/contact","/examples/*","/overview","/projects/*","/resume","/tools","/elements","/privacy-policy"]}

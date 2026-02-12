@@ -9,12 +9,12 @@ import { defineConfig } from "astro/config";
 import AutoImport from "astro-auto-import";
 import icon from "astro-icon";
 
+import cloudflare from "@astrojs/cloudflare";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://terrysbook.com",
-  adapter: netlify({
-    imageCDN: false,
-  }),
+  adapter: cloudflare(),
   redirects: {
     "/admin": "/keystatic",
   },
