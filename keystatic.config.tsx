@@ -19,9 +19,9 @@ export default config({
   // cloud deployment is free to sign up (up to 3 users per team)
   // docs: https://keystatic.com/docs/cloud
   // create a Keystatic Cloud account here: https://keystatic.cloud/
-  cloud: { project: "cosmic-themes/voyager" },
+  cloud: { project: "alpha-team/terrysbook" },
   ui: {
-    brand: { name: "Cosmic Themes" },
+    brand: { name: "Terrys Book" },
   },
   collections: {
     blogEN: Collections.Blog("en"),
